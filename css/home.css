@@ -1,0 +1,25 @@
+
+body{
+    min-width: 400px;
+    /* display: block; */
+
+}
+.main{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column; 
+    height: 100%;
+}
+.navigation-bar{
+    background-color: aqua;
+    height: 60px;
+    padding: 6px;
+    align-items: center;
+
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    
+}

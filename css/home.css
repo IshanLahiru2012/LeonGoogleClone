@@ -81,9 +81,9 @@ body{
 
 }
 #signin{
-    /* margin-left: 18px; */
-    padding: 8px 16px;
-    /* min-width: 196px; */
+    margin: 0 8px;
+    padding: 9px 15px;
+    min-width: 80px;
     /* border-radius: 10px; */
 }
 
@@ -91,7 +91,7 @@ body{
     text-decoration: underline;
 }
 .nav-app{
-    padding: 0 8px;
+    padding: 8px;
    
 }
 .nav-app:hover{
@@ -100,7 +100,6 @@ body{
     cursor: pointer;
 }
 .logo{
-    /* background-color: blueviolet; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,26 +147,19 @@ body{
     color: rgb(32, 33, 36);
     height: 46px;
     padding-right: 13px;
-    margin-top: -5px;
+    margin-top: -6px;
 }
 .search-icon-container-2{
-    margin: auto;
-    
+    margin: auto; 
 }
-
 .material-symbols-outlined {
     height: 100%;
     width: 100%;
-    line-height: 20px;
     color: rgb(154, 160, 166);
-    font-variation-settings:
-      'FILL' 0,
-      'wght' 300,
-      'GRAD' 0,
-      'opsz' 24
+    font-size: 20px;
+    font-weight: 400;
 }
 .search-core{
-    background-color: beige;
     display: flex;
     flex: 1;
     margin-top: 6px;
@@ -185,30 +177,27 @@ input{
 
 }
 .mic-lense-container{
-    background-color: aqua;
     display: flex;
     flex: 0 0 auto;
     margin-top: -5px;
     height: 44px;
 }
 .mic-container{
-    /* background-color: black; */
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     flex: 1 0 auto;
     cursor: pointer;
     align-items: center;
     /* outline: none; */
-    padding: 0 20px;
-    width: 24px;
+    padding: 0 8px;
+    width: 40px;
     line-height: 44px;
 
 }
 .mic{
     display: inline-block;
-    background-color: black;
-    height: 24px;
-    width: 24px;
+    height: 30px;
+    width: 30px;
     /* align-items: center; */
 }
 .lense-container{
@@ -218,16 +207,11 @@ input{
     cursor: pointer;
     align-items: center;
     padding: 0 8px;
-    width: 24px;
+    width: 40px;
     line-height: 44px;
 
 }
-.test{
-    background-color: red;
-    width: 20px;
-}
 .lense{
-    background-color: black;
     display: inline-block;
     height: 24px;
     width: 40px;
@@ -269,6 +253,7 @@ input{
     border:1px solid rgb(248, 249, 250);
     color: rgb(60, 64, 67);
     border-radius: 4px;
+    font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
     height: 36px;
@@ -280,24 +265,27 @@ input{
 }
 .button-element:hover{
     background-color: rgb(248, 249, 250);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
     border: 1px solid rgb(218, 220, 224);
     color: rgb(32, 33, 36);
 
 }
+.button-element:focus{
+    border: 1px solid #4285f4;
+}
 .language-container{
-    background-color: darkcyan;
     flex-grow: 1;
     
 }
 #langauge-line{
-    background-color: aqua;
     text-align: center;
     margin-bottom: 24px;
+    font-size: 13px;
     
     
 }
 .footer-container{
+    background-color: rgb(242, 242, 242);
     width: 100%;
     
     
@@ -313,7 +301,7 @@ input{
 }
 .country{
     padding: 15px 30px;
-    border-bottom: 0.8px solid rgb(218, 220, 224);
+    border-bottom: 1px solid rgb(218, 220, 224);
     font-size: 15px;
     color: rgb(112, 117, 122);
     display: flex;

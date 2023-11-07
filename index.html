@@ -27,7 +27,7 @@
                         </div>
                         <div id="app-container">
                             <div class="nav-app">
-                                <span class="material-symbols-outlined " >Apps</span>
+                                <span id="nav-app" class="material-symbols-outlined" >Apps</span>
                             </div>
                             <div id="signin">
                                 <button type="button" class="btn btn-primary ">Sign In</button>
@@ -51,7 +51,7 @@
                             <div class="search-icon-container">
                                 <div class="search-icon-container-2">
                                     <span class="search-icon-container-3">
-                                        <span class="material-symbols-outlined">
+                                        <span id="search-icon" class="material-symbols-outlined">
                                             search
                                         </span>
                                     </span>
@@ -61,10 +61,10 @@
                                 <input type="text" name="q">
                             </div>
                             <div class="mic-lense-container">
-                                <div class="mic-container">           
+                                <div class="mic-lense-container-inner">           
                                     <img class="mic" src="img/mic_icon.ico" >                               
                                 </div>
-                                <div class="lense-container">
+                                <div class="mic-lense-container-inner">
                                     <img class="lense" src="img/Google_Len.png" >
                                 </div>
                             </div>
@@ -72,8 +72,10 @@
                     </div>
                     <div class="button-box">
                         <div class="button-container">
-                            <input class="button-element" value="Google Search" aria-label="Google Search" name="btnK" role="button" tabindex="0" type="submit">
-                            <input class="button-element" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="btnI" type="submit" jsaction="trigger.kWlxhc">
+                            <input id="button-element" value="Google Search" aria-label="Google Search" 
+                                name="btnK" role="button" tabindex="0" type="submit">
+                            <input id="button-element" value="I'm Feeling Lucky" 
+                                aria-label="I'm Feeling Lucky" name="btnI" role="button" type="submit">
                         </div>   
                     </div>
                 </div>
@@ -82,8 +84,8 @@
         <div class="language-container">
             <div id="langauge-line">
                 Google offered in:
-                <a href="https://www.google.com/setprefs?sig=0_yBmGpzwjQZRAl-OVuS7ZokxtOcU%3D&hl=si&source=homepage&sa=X&ved=0ahUKEwjXgKuCtaOCAxVwxzgGHVemAfcQ2ZgBCBU">සිංහල</a>
-                <a href="https://www.google.com/setprefs?sig=0_yBmGpzwjQZRAl-OVuS7ZokxtOcU%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwjXgKuCtaOCAxVwxzgGHVemAfcQ2ZgBCBY">தமிழ்</a>
+                <a class="lang-elem" href="https://www.google.com/setprefs?sig=0_yBmGpzwjQZRAl-OVuS7ZokxtOcU%3D&hl=si&source=homepage&sa=X&ved=0ahUKEwjXgKuCtaOCAxVwxzgGHVemAfcQ2ZgBCBU">සිංහල</a>
+                <a class="lang-elem" href="https://www.google.com/setprefs?sig=0_yBmGpzwjQZRAl-OVuS7ZokxtOcU%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwjXgKuCtaOCAxVwxzgGHVemAfcQ2ZgBCBY">தமிழ்</a>
             </div>
         </div>
         <div class="footer-container">

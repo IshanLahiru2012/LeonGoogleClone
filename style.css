@@ -6,13 +6,65 @@ body{
 }
 @media (prefers-color-scheme: dark) {
     #main{
-      background-color: #333;
-      color: #fff ;
+        background-color: rgb(32, 32, 36);
+        color: #fff ;
     }
-    .nav-child{
+    .nav-child,#nav-app{
         color: #fff !important; 
     }
-  }
+    #sign-button{
+        background-color: #8ab4f8;
+        color: #202124;
+        box-shadow: none;
+    }
+    #img-google2{
+        position: absolute;
+        opacity: 1;
+    }
+    #text-line{
+        background-color: transparent;
+        color: rgb(232, 234, 237);
+    }
+    #search-line{
+        border:0.8px solid rgb(95, 99, 104);        
+    }
+    #search-line:hover{
+        border-color: transparent;
+    }
+    .lang-elem{
+        color: #8ab4f8;
+    }
+    #langauge-line{
+        color: #bdc1c6;
+    }
+
+    .footer-bottom-container{
+        background-color: rgb(23, 23, 23);  
+    }
+    .footer-element{
+        color: rgb(153, 157, 162);
+    }
+    .country{
+        color: rgb(153, 157, 162);
+        border-bottom: 0.8px solid rgb(60, 64, 67);
+        background-color: rgb(23, 23, 23);
+    }
+    #search-line:hover{
+        background-color: rgb(48, 49, 52);
+    }
+    #button-element{
+        display: inline-block;
+        background-color: #303134;
+        color: #e8eaed;
+        border: none;
+
+    }
+    #button-element:hover{
+        background-color: #303134;
+        color: #e8eaed;
+        border-color: #5f6368;
+    }
+}
   
   
   

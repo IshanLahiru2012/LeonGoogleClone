@@ -8,6 +8,7 @@ body{
     flex-direction: column; 
     height: 100%;
     flex-grow: 1;
+    
 }
 .navigation-bar{
     display: flex;
@@ -53,12 +54,23 @@ body{
     display: flex;
     align-items: center;
     padding-left: 4px; 
+    gap: 4px;
 }
 #nav-app{
     display: flex;
     align-items: center;
-    height: 40px;
     color: rgba(0, 0, 0, 0.55);
+}
+.nav-app{
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+   
+}
+.nav-app:hover{
+    border-radius: 40px;
+    background-color:rgba(95, 99, 104,0.1);
+    cursor: pointer;
 }
 #sign-button{
     margin: 0 8px;
@@ -88,15 +100,16 @@ body{
 .nav-child:hover{
     text-decoration: underline;
 }
-.nav-app{
-    padding: 8px 12px 8px 8px;
-   
+.logo-container{
+    position: relative;
+
 }
-.nav-app:hover{
-    border-radius: 25px;
-    background-color:rgba(95, 99, 104,0.1);
-    cursor: pointer;
+#img-google2{
+    left: 0;
+    position: absolute;
+    opacity: 0;
 }
+
 .logo{
     display: flex;
     flex-direction: column;
@@ -235,7 +248,6 @@ input{
     cursor: pointer;
     min-width: 54px;
     line-height: 27px;
-    
 
 }
 #button-element:hover{

@@ -12,6 +12,9 @@ body{
     .nav-child,#nav-app{
         color: #fff !important; 
     }
+    .nav-app:hover{
+        background-color: rgba(232,234,237,.08);
+    }
     #sign-button{
         background-color: #8ab4f8;
         color: #202124;
@@ -56,7 +59,7 @@ body{
         display: inline-block;
         background-color: #303134;
         color: #e8eaed;
-        border: none;
+        border-color: #303134;
 
     }
     #button-element:hover{

@@ -278,9 +278,7 @@ input{
 .lang-elem{
     padding: 0 3px;
     text-decoration: none;
-    color: rgb(26, 13, 171);
-    
-    
+    color: rgb(26, 13, 171);   
 }
 .lang-elem:hover{
     text-decoration: underline;
@@ -289,9 +287,7 @@ input{
 .footer-container{
     background-color: rgb(242, 242, 242);
     width: 100%;
-    
-    
-    
+       
 }
 .footer-bottom-container{
     display: flex;
@@ -305,7 +301,7 @@ input{
     padding: 15px 30px;
     border-bottom: 1px solid rgb(218, 220, 224);
     font-size: 15px;
-    color: rgb(112, 117, 122);
+    color: #202124;
     display: flex;
     line-height: 17px;
     
@@ -319,7 +315,7 @@ input{
     background-size: auto;
 }
 .footer-element{
-    color: rgb(112, 117, 122);
+    color: #202124; ;
     font-size: 14px;
     padding: 15px;
     text-decoration: none solid;

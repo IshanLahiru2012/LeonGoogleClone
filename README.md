@@ -5,4 +5,4 @@
 
 ### Licence
 Copyright © J.A.Ishan Lahiru. All Right Recieved <br>
-This project is licenced under this [MIT Licence](LICENSE.txt)
+This project is licenced under this [MIT License](LICENSE.txt)
